@@ -24,6 +24,6 @@ export default function Header() {
             </button>
         </Wrapper>
     </header>
-)
+  )
 }
  

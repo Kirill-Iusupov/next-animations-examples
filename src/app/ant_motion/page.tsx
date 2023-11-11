@@ -1,20 +1,15 @@
-'use client'
-import BoringPie from '@/components/boringPie/BoringPie'
+import QueueBoringPie from '@/components/boringPie/QueueBoringPie'
 import Wrapper from '@/components/wrapper/Wrapper'
-import QueueAnim from 'rc-queue-anim'
+import { Metadata } from 'next'
 
-const _class="text-[100px]"
-
+export const metadata: Metadata= {
+  title: 'Ant Motion Components'
+}
 export default function() {
 
  return (
     <Wrapper>
-      <QueueAnim>
-        <BoringPie key={1}/>
-        <BoringPie key={2}/>
-        <BoringPie key={3}/>
-        <BoringPie key={4}/>
-      </QueueAnim>
+        <QueueBoringPie />
     </Wrapper>
   )
 }
