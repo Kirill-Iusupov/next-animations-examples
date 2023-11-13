@@ -14,9 +14,6 @@ export default function Header() {
                 </Link>
             </button>
             <button className={_class}>
-                <Link href={"/ant_motion"}>Ant Motion</Link>
-            </button>
-            <button className={_class}>
                 <Link href={"/mui"}>MUI Motion</Link>
             </button>
             <button className={_class}>
